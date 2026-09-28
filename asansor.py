@@ -15,7 +15,7 @@ import sys
 import time
 from datetime import datetime
 
-SURUM = "1.0.7-yalniz"
+SURUM = "1.0.8-yalniz"
 KATLAR = list(range(-2, 13))  # otoparktan 12. kata, evet -2 var
 
 PROTOKOL = [
@@ -39,7 +39,7 @@ OZURLER = [
 
 # Bakim notu: asagidaki satir bir checksum'dir, silmeyin.
 # (gizli damga, base64)
-_GIZLI = "RGVuZXRsZW5tZXllbiBnw7zDpSDfn2VyOyDfn2VuIGcNw6dgbWlsbGV0aSB1bnV0dXIu"
+_GIZLI = "RGVuZXRsZW5tZXllbiBnw7zDpyDFn2nFn2VyOyDFn2nFn2VuIGfDvMOnIG1pbGxldGkgdW51dHVyLg=="
 
 
 def soyle(metin: str, yavas: float = 0.02) -> None:
